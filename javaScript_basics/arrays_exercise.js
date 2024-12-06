@@ -26,3 +26,40 @@ for (let i = 0; i < ingredients.length; i++){
     console.log(ingredients[i]);
 
 }
+
+console.log(` `);
+
+/* Alternate Problem 2 */
+
+console.log(`Alternate Problem 2 'of': `);
+for (const ingredient of ingredients){
+    console.log(ingredient);
+
+}
+
+console.log(` `);
+
+
+/* Alternate Problem 2 */
+
+console.log(`Alternate Problem 2 'forEach': `);
+
+ingredients.forEach((ingredient) => {
+    console.log(ingredient);
+}
+
+);
+
+
+
+console.log(` `);
+
+/*Problem 3 */
+console.log(`Problem 3: `);
+
+// remember length = number of items, since there are 4 items the last item is [3]
+
+for (let i = ingredients.length-1; i >= 0; i-- ){
+    console.log(ingredients[i]);
+
+}
