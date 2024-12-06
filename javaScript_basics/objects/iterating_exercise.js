@@ -84,6 +84,30 @@ for (const percent of percentages) {
 };
 console.log(total);
 
+console.log(``);
+
 
 /* Problem 4: Once completed, try the same problem with for..in instead. */
 
+
+let total1 = 0;
+const composition2 = steel.composition
+const percentages1 = Object.values(steel.composition);
+console.log(`List of percentages in Problem 4: ${percentages1}`)  //here we can see the array that is returned from Object.values
+
+for (const percentages1 in composition2){
+  total1 += composition2[percentages1];
+};
+
+console.log(`Problem 4 total percentage: ${total1}`);
+
+/*
+
+Why Does This Work?
+for..in Iterates Over Keys: The for..in loop retrieves the keys (iron, carbon, etc.) one by one.
+
+composition2[percentages1] Retrieves Values: Using bracket notation (composition2[key]), you get the value associated with the current key in each iteration.
+
+Accumulation: The values are added to total1 during each iteration.
+
+*/
