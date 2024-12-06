@@ -12,7 +12,17 @@ Problem #3: Write any loop, while or for, that prints out each item of ingredien
 const ingredients = ["eggs", "poop", "bullshit", "bananas"];
 let ing = 0;
 
+console.log(`Problem 1: `);
 while (ing < ingredients.length){
 console.log(ingredients[ing]);
 ing++;
+}
+
+console.log(` `);
+
+/*Problem 2 */
+console.log(`Problem 2: `);
+for (let i = 0; i < ingredients.length; i++){
+    console.log(ingredients[i]);
+
 }
