@@ -50,3 +50,40 @@ console.log(``);
 const keyOfComp = Object.keys(steel.composition);
 
 console.log(keyOfComp);
+console.log(``);
+
+/* Problem 3: 
+Now let's try calculating the sum of all the percentages to make sure that you reach a value that is near 100%.
+
+The result should be 99.99.
+
+Instruction
+Using the Object.values() method, calculate the sum of all the percentages inside of the composition object.
+*/
+
+let sum = 0;
+const valOfComp = Object.values(steel.composition);
+console.log(valOfComp);
+
+for (let i = 0; i < valOfComp.length; i++){
+sum+= valOfComp [i];
+
+}
+
+console.log(sum);
+
+
+/* lighthouse example of problem 3 */
+
+let total = 0;
+const composition1 = steel.composition
+const percentages = Object.values(steel.composition);
+console.log(percentages)  //here we can see the array that is returned from Object.values
+for (const percent of percentages) {
+  total += percent;
+};
+console.log(total);
+
+
+/* Problem 4: Once completed, try the same problem with for..in instead. */
+
