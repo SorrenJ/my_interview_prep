@@ -101,6 +101,8 @@ for (const percentages1 in composition2){
 
 console.log(`Problem 4 total percentage: ${total1}`);
 
+console.log(``);
+
 /*
 
 Why Does This Work?
@@ -111,3 +113,41 @@ composition2[percentages1] Retrieves Values: Using bracket notation (composition
 Accumulation: The values are added to total1 during each iteration.
 
 */
+
+
+/* Problem: 5
+
+Count how many values are either strings or numbers in the steel object. For this one, 
+you do not care about nested objects, you only want the keys that are at the top level. The expected result for this is 4.
+
+Instruction
+For this last exercise, use all the methods that you know (Object.keys(), Object.values(), and for..in) to complete this task.
+
+
+*/
+let count = 0;
+
+const keyList = Object.keys(steel); // []
+
+console.log(`steel keys: ${keyList}`);
+
+const keyVal = Object.values(steel);
+
+console.log(`steel values: ${keyVal}`);
+
+console.log(``);
+
+for (const k in keyList) {
+for (let k= 0; k < keyList.length; k++){
+  count+= k;
+
+
+} 
+
+  
+ 
+}
+
+
+
+console.log(count);
