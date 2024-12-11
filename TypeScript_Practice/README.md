@@ -35,3 +35,10 @@ TypeScript Not Installed? If you see an error saying tsc: command not found, ins
 npm install -g typescript
 ```
 Node.js Not Installed? If you get an error with the node command, install Node.js from Node.js official website.
+
+To start the ts watch:
+
+``` bash
+npm start
+
+```
