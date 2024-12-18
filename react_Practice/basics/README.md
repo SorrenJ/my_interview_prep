@@ -1,9 +1,13 @@
-## 1. React Setup and Basics
-Goal: Set up React, understand component structure, and render elements.
+Basic Component Rendering
+1. Simple Component:
+Create a component that displays a simple greeting message.
+Experiment with passing props to customize the greeting.
 
-Exercises:
-1. Set up a new React project using create-react-app or Vite.
-2. Create a functional component called HelloWorld that displays "Hello, World!" on the screen.
-3. Render multiple components in App.js (e.g., Header, MainContent, and Footer).
-4. Practice JSX: Use expressions, conditions, and variables inside JSX.
-5. Create a component that accepts props and displays them dynamically.
+2. List Rendering:
+Create a component that renders a list of items from an array of data.
+Use JSX to dynamically render list items.
+Conditional Rendering:
+
+3. Conditional Rendering:
+Create a component that conditionally renders different content based on a prop or state value.
+Implement a simple toggle button to switch between two views.
