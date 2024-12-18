@@ -176,3 +176,164 @@ k < logc log2n  + 1
 get rid of constants 
 
 θ (Log log n) 
+
+
+## Example 6 Multiple loops
+
+``` js
+function fun (n) {
+
+for (let i = 0; i<n; i++) {
+
+// Some θ(1) work 
+
+}
+for (let i = 1; i < n; i = i * 2) {
+
+// Some θ(1) work 
+
+}
+
+for (let i = 1; i < 100; i++) {
+
+// Some θ(1) work 
+
+}
+
+}
+
+```
+
+Loop 1 is O(n) 
+
+Loop 2 is O(logn)
+
+Loop 3 is O(1) since  n is a constant 99 times
+
+Now we simply add the time complexities 
+
+ O(n) + O(1)  + O(logn)
+
+When we add, we ignore the lower order growth. The largest growth is O(n) so this will be our result
+
+## Example 7 Nested Loops
+
+``` js
+for (let i = 0; i<n; i++) {
+
+// Some θ(1) work 
+
+for (let j = 1; j < n; j = j * 2) {
+
+// Some θ(1) work 
+
+}
+}
+```
+
+Loop 1 is O(n) 
+
+Loop 2 is O(logn)
+
+Since they loop 2 is nested inside loop 1 we multiply
+
+= O(n) X O(logn)
+
+= O(nlogn)
+
+Putting it together this results to O(nlogn)
+
+
+## Example 8 Two Nested Loops
+
+
+``` js
+
+function fun (n,m){
+
+for (let i = 0; i<n; i++) {
+
+// Some θ(1) work 
+
+for (let j = 1; j < n; j = j * 2) {
+
+// Some θ(1) work 
+
+}
+}
+
+for (let i =0; i<m; i++){
+
+for (let j = 1; j < m; j++) {
+
+// Some θ(1) work 
+
+}
+}
+
+}
+
+
+
+}
+```
+
+
+Lets look at it piece by piece
+
+
+``` js
+
+for (let i = 0; i<n; i++) {
+
+// Some θ(1) work 
+
+for (let j = 1; j < n; j = j * 2) {
+
+// Some θ(1) work 
+
+}
+}
+```
+
+Loop 1 is O(n) 
+
+Loop 2 is O(logn)
+
+Since they loop 2 is nested inside loop 1 we multiply
+
+= O(n) X O(logn)
+
+= O(nlogn)
+
+Putting it together this results to O(nlogn)
+
+Now lets look at the 2nd nested loop
+
+``` js
+
+for (let i =0; i<m; i++){
+
+for (let j = 1; j < m; j++) {
+
+// Some θ(1) work 
+
+}
+}
+
+```
+
+Loop 1 is  O(n)
+
+Loop 2 is  O(n)
+
+Since they loop 2 is nested inside loop 1 we multiply
+
+= O(n) X O(n)
+
+= O(n^2)
+
+
+Finally we take the two nested loop complexities and simply add them
+
+O(n^2)+ O(nlogn) 
