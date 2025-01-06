@@ -1,5 +1,7 @@
 # Interview Prep
 
+These are some of the commonly required skills/desirable skills featured in job descriptions for full-stack jobs.
+
 JavaScript review -> DSA
 
 React review 
