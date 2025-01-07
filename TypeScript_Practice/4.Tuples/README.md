@@ -20,7 +20,7 @@
   </p>
 </div>
 
-[<< Day 3](../Day3_Array_Type/Day3.md) | [Day 5 >>](../Day5_Objects/Day5.md)
+[<< Day 3](../3.Array_type/README.md) | [Day 5 >>](../5.Objects/README.md)
 
 <div align="center"> 
   <a class="header-image" target="_blank" href="../Asset/images/Days/Day_4.webp">
