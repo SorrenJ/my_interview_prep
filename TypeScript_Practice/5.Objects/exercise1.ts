@@ -9,9 +9,10 @@ Modify the Person type so that the name property is read-only.
 
 */
 
-interface Person {
+type Person = {
     readonly name:string; 
     age:number; 
+    hobbies? : string [];
 }
 
 interface User extends Person {
