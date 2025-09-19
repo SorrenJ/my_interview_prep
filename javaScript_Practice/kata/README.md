@@ -2,21 +2,21 @@
 
 Short but sweet JS snippets to practice the fundamental building blocks.
 
-[Kata1: Sum Largest Numbers](javaScript_Practice/kata/kata1.js)
+[Kata1: Sum Largest Numbers](kata1.js)
 
-[Kata2: Conditional Sum](javaScript_Practice/kata/kata2.js)
+[Kata2: Conditional Sum](kata2.js)
 
-[Kata3: Vowel Counter](javaScript_Practice/kata/kata3.js)
+[Kata3: Vowel Counter](kata3.js)
 
-[Kata4: Longest Instructor Name](javaScript_Practice/kata/kata4.js)
+[Kata4: Longest Instructor Name](kata4.js)
 
-[Kata5: URL Encoder](javaScript_Practice/kata/kata5.js)
+[Kata5: URL Encoder](kata5.js)
 
-[Kata6: Check Air Sample](javaScript_Practice/kata/kata6.js)
+[Kata6: Check Air Sample](kata6.js)
 
-[KataStretch1: Remove Duplicates](javaScript_Practice/kata/kataStetch1.js)
+[KataStretch1: Remove Duplicates](kataStetch1.js)
 
-[KataStretch2: Reverse Words](javaScript_Practice/kata/kataStretch2.js)
+[KataStretch2: Reverse Words](kataStretch2.js)
 
 
 ## Solutions
